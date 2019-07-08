@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func excel() {
 	dt1 := time.Now()
 	excel, err1 := xlsx.OpenFile("address.xlsx")
 
