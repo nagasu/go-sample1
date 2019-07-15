@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/tealeg/xlsx"
 	"time"
+
+	"github.com/tealeg/xlsx"
 )
 
 func excel() {

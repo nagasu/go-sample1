@@ -1,11 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func test() {
-	fmt.Println("test")
+// sample
+type T struct {
+	name  string // オブジェクトの名前
+	value int    // その値
 }
 
-
+func test() {
+	s := T{"test", 1}
+	fmt.Println(s)
+}
